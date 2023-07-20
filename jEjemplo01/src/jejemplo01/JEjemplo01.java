@@ -5,6 +5,7 @@
 package jejemplo01;
 
 import Modelo.Numero;
+import Modelo.Persona;
 
 /**
  *
@@ -23,6 +24,19 @@ public class JEjemplo01 {
         Numero n = new Numero();
         n.setNumero(10);
         System.out.println(n.toString());
+        
+        Persona p = new Persona();
+        p.setEdad(18);
+        p.setNombre("Jose Edgar Lugo ");
+        p.setEmail("lugouadec@gmail.com");
+        
+        System.out.println("----- Salida por pantalla --------------");
+        
+        System.out.println(p );
+        
+        
+       
+        
         
         
         

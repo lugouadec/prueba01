@@ -34,11 +34,7 @@ public class JEjemplo01 {
         
         System.out.println(p );
         
-        
-       
-        
-        
-        
+        System.out.println("Dr. Jose Edgar Lugo Castro");
         
     }
     

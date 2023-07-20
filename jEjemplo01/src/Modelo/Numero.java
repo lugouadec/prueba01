@@ -6,7 +6,7 @@ package Modelo;
 
 /**
  *
- * @author LugoUAdeC
+ * @author Dr. Jose Edgar Lugo Castro
  */
 public class Numero {
     private int numero;

@@ -6,7 +6,7 @@ package Modelo;
 
 /**
  *
- * @author LugoUAdeC
+ * @author Dr. Jose Edgar Lugo Castro
  */
 public class Persona {
     private String Nombre;
@@ -54,7 +54,5 @@ public class Persona {
     public String toString() {
         return "Persona{" + "Nombre=" + Nombre + ", email=" + email + ", edad=" + edad + '}';
     }
-    
-        
     
 }

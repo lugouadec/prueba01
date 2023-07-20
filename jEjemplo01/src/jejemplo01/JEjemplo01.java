@@ -4,6 +4,8 @@
  */
 package jejemplo01;
 
+import Modelo.Numero;
+
 /**
  *
  * @author LugoUAdeC
@@ -16,6 +18,14 @@ public class JEjemplo01 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Holas Mundo !!!");
+        System.out.println("Esto es un cambio realizado al programa !!!");
+                
+        Numero n = new Numero();
+        n.setNumero(10);
+        System.out.println(n.toString());
+        
+        
+        
     }
     
 }

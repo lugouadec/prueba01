@@ -6,6 +6,9 @@ package jejemplo01;
 
 import modelo.Alumnos;
 
+import Modelo.Numero;
+import Modelo.Persona;
+
 /**
  *
  * @author LugoUAdeC
@@ -18,6 +21,23 @@ public class JEjemplo01 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Holas Mundo !!!");
+        System.out.println("Esto es un cambio realizado al programa !!!");
+                
+        Numero n = new Numero();
+        n.setNumero(10);
+        System.out.println(n.toString());
+        
+        Persona p = new Persona();
+        p.setEdad(18);
+        p.setNombre("Jose Edgar Lugo ");
+        p.setEmail("lugouadec@gmail.com");
+        
+        System.out.println("----- Salida por pantalla --------------");
+        
+        System.out.println(p );
+        
+        System.out.println("Dr. Jose Edgar Lugo Castro");
+        
         System.out.println("Esto es una pago !!!");
         System.out.println("Esto es todo lo que pueda");
         
